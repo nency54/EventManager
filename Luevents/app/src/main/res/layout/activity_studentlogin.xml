@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".studentlogin"
+    android:id="@+id/login"
+    >
+
+
+    <EditText
+        android:id="@+id/loginstud_id"
+        android:layout_width="249dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="91dp"
+        android:layout_marginBottom="43dp"
+        android:ems="10"
+        android:hint="Student Email ID"
+        android:inputType="textEmailAddress"
+        android:lineSpacingExtra="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/login_password"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+
+    <EditText
+        android:id="@+id/login_password"
+        android:layout_width="249dp"
+        android:layout_height="74dp"
+        android:layout_marginBottom="36dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:lineSpacingExtra="24sp"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/std_login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginstud_id"
+         />
+
+    <Button
+        android:id="@+id/std_login"
+        android:layout_width="234dp"
+        android:layout_height="66dp"
+        android:layout_marginBottom="35dp"
+
+        android:text="Log in"
+        app:layout_constraintBottom_toTopOf="@+id/new_student"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_password" />
+
+    <TextView
+        android:id="@+id/new_student"
+        android:layout_width="154dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="334dp"
+        android:autoLink="web"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Are you new student?"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/std_login" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "861825118768",
+    "firebase_url": "https://lu-events-6aba5.firebaseio.com",
+    "project_id": "lu-events-6aba5",
+    "storage_bucket": "lu-events-6aba5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:861825118768:android:b5c293ab2aa8331db073f5",
+        "android_client_info": {
+          "package_name": "com.example.luevents"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "861825118768-ctvhtpnk7q6ektakvp89dcm5jl9k3lr3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.luevents",
+            "certificate_hash": "4177160c84b85ddbc4a4fcfa63a7faa9037aafec"
+          }
+        },
+        {
+          "client_id": "861825118768-k4hgo12k7d0jd7sgi3l5v00c09j92m2i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLv27BFmZzI0Qz5O0a7JrLQ1DyjFEAM3A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "861825118768-k4hgo12k7d0jd7sgi3l5v00c09j92m2i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Lu events</string>
+    <string translatable="false" name="lu_events">LU EVENTS</string>
+
+    <string name="student">STUDENT</string>
+    <string name="admin">ADMIN</string>
+    <string name="students_can_see_events_here">Students can see events here</string>
+    <string translatable="false" name="todo">TODO</string>
+    <string name="add_events">Add Events</string>
+    <string name="delete_events">Delete Events</string>
+    <string name="update_events">Update Events</string>
+    <string name="id">Id</string>
+    <string translatable="false" name="event_name">Event Name</string>
+    <string name="event_location">Event Location</string>
+    <string name="go_to_main_page">GO TO MAIN PAGE</string>
+
+</resources>

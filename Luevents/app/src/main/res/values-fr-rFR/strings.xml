@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Événements LU</string>
+    <string name="student">Élèves</string>
+    <string name="update_events">Événements de mise à jour</string>
+    <string name="students_can_see_events_here">" Les étudiants peuvent voir les événements ici"</string>
+    <string name="id">id</string>
+    <string name="go_to_main_page">" ALLEZ À LA PAGE PRINCIPALE"</string>
+    <string name="event_name">Nom de l\'événement</string>
+    <string name="event_location">Lieu de l\'événement</string>
+    <string name="delete_events">Supprimer des événements</string>
+    <string name="admin">ADMIN</string>
+    <string name="add_events">Ajouter des événements</string>
+</resources>
